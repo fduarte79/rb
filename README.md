@@ -81,11 +81,12 @@ irb(main):049:0> arrays[0]
 irb(main):050:0> arrays[-1]
 => -2
 
-irb(main):116:0> puts languages
-C
-Python
-Raskel
-Ruby
+irb(main):117:0> arrays = ['Banana', 3.141592, -2]
+=> ["Banana", 3.141592, -2]
+irb(main):118:0> puts arrays
+Banana
+3.141592
+-2
 </pre>
 
 ### Delete
