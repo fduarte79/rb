@@ -31,7 +31,7 @@ Programming with Ruby
 => nil
 </pre>
 
-## Input**  
+## Input  
 `gets`  
 <pre>
 irb(main):014:0> gets 
