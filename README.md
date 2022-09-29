@@ -7,9 +7,10 @@
 
 ## Data types
 
-Integer: ..., -2, -1, 0, 1, 2, ...
-Float: 3.141592
-String: 'Ruby' or "Ruby"
+Integer: ..., `-2`, `-1`, `0`, `1`, `2`, ...
+Float: `3.141592`
+String: `'Ruby'` or `"Ruby"`  
+Boolean: `true` or `false`
 
 ## Math operators
 `+` adictation  
@@ -92,3 +93,19 @@ irb(main):005:0> array.delete_at(1)
 => "Python"
 </pre>
 
+## Loops
+<pre>
+irb(main):025:0> array = ['C', 'Python', 'Raskel', 'Ruby']
+=> ["C", "Python", "Raskel", "Ruby"]
+irb(main):026:0> x = 4
+=> 4
+irb(main):027:0> while (x >= 0) do
+irb(main):028:1*     puts array[x]
+irb(main):029:1>     x = x - 1
+irb(main):030:1> end
+
+Ruby
+Raskel
+Python
+C
+</pre>
