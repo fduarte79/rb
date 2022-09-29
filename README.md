@@ -5,6 +5,8 @@
 
 **Interactive shell** `irb`
 
+`#` comments 
+
 ## Data types
 
 Integer: ..., `-2`, `-1`, `0`, `1`, `2`, ...
@@ -78,6 +80,12 @@ irb(main):049:0> arrays[0]
 => "Banana"
 irb(main):050:0> arrays[-1]
 => -2
+
+irb(main):116:0> puts languages
+C
+Python
+Raskel
+Ruby
 </pre>
 
 ### Delete
@@ -94,6 +102,8 @@ irb(main):005:0> array.delete_at(1)
 </pre>
 
 ## Loops
+
+#### `while`
 <pre>
 irb(main):025:0> array = ['C', 'Python', 'Raskel', 'Ruby']
 => ["C", "Python", "Raskel", "Ruby"]
@@ -108,4 +118,40 @@ Ruby
 Raskel
 Python
 C
+</pre>
+
+#### `for`
+<pre>
+irb(main):069:0> languages = ['C', 'Python', 'Raskel', 'Ruby']
+=> ["C", "Python", "Raskel", "Ruby"]
+irb(main):070:0> objective = ['System', 'DS', 'web', 'script']
+=> ["System", "DS", "web", "script"]
+irb(main):071:0> x = 0
+=> 0
+irb(main):072:0> for l in languages do
+irb(main):073:1*     puts "The language #{l} is good for #{objective[x]}"
+irb(main):074:1>     x = x + 1
+irb(main):075:1> end
+The language C is good for System
+The language Python is good for DS
+The language Raskel is good for web
+The language Ruby is good for script
+</pre>
+
+#### each()
+<pre>
+irb(main):109:0> languages = ['C', 'Python', 'Raskel', 'Ruby']
+=> ["C", "Python", "Raskel", "Ruby"]
+irb(main):110:0> objective = ['System', 'DS', 'web', 'script']
+=> ["System", "DS", "web", "script"]
+irb(main):111:0> x = 0
+=> 0
+irb(main):112:0> languages.each do |l|
+irb(main):113:1*    puts "#{l} is good for #{objective[x]}"
+irb(main):114:1>    x = x + 1
+irb(main):115:1> end
+C is good for System
+Python is good for DS
+Raskel is good for web
+Ruby is good for script
 </pre>
