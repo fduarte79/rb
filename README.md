@@ -39,9 +39,9 @@ irb(main):014:0> gets
 => "\n"
 </pre>
 
-**Variables** `=`
+**Variables** `=`  
 Choose simples names and explicatives  
-Names composed, should sepate with underscore
+Names composed, should sepate with underscore  
 <pre>
 soma = 5 + 9
 </pre>
@@ -66,3 +66,29 @@ cool
 irb(main):040:0> puts "Programming in Ruby is #{feel}"
 Programming in Ruby is cool
 </pre>
+
+## Arrays
+<pre>
+irb(main):047:0> arrays = ['Banana', 3.141592, -2]
+=> ["Banana", 3.141592, -2]
+irb(main):048:0> arrays
+=> ["Banana", 3.141592, -2]
+irb(main):049:0> arrays[0]
+=> "Banana"
+irb(main):050:0> arrays[-1]
+=> -2
+</pre>
+
+### Delete
+<pre>
+=> ["C", "Python", "Raskel", "Ruby"]
+irb(main):002:0> array
+=> ["C", "Python", "Raskel", "Ruby"]
+irb(main):003:0> array.delete_at(2)
+=> "Raskel"
+irb(main):004:0> array
+=> ["C", "Python", "Ruby"]
+irb(main):005:0> array.delete_at(1)
+=> "Python"
+</pre>
+
