@@ -67,7 +67,7 @@ irb(main):040:0> puts "Programming in Ruby is #{feel}"
 Programming in Ruby is cool
 </pre>
 
-## Arrays
+## [Arrays](https://ruby-doc.org/core-2.6.2/Array.html)
 <pre>
 irb(main):047:0> arrays = ['Banana', 3.141592, -2]
 => ["Banana", 3.141592, -2]
