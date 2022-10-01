@@ -7,13 +7,13 @@
 
 `#` comments 
 
-## Input/Output  
-`puts` for output
-`gets` for input
+## Input/Output (with operator + and interpolation)   
+`puts` for output  
+`gets` for input  
 
 **Interpolation**:  
-use double quotes
-`puts "text #{variable}"
+use double quotes  
+`puts "text #{variable}"`  
 
 [Example](src/input_output.rb)
 
