@@ -29,18 +29,19 @@ Boolean: `true` or `false`
 
 # [Operators](https://www.rubyguides.com/2018/07/ruby-operators/)
 
-## Assigment
-`=`, `+=`, `-=`, `*=`, `/=`, `%=` and `**=`  
-
-### Paralell Assigment
-`a, b, c = 1, 2, 3`  
-
 ## Math operators
 `+` addition  
 `-` subtraction  
 `*` multiplication   
 `**` exponent  
 `%` modulus  
+[Example](src/operat_math.rb)
+
+## Assigment
+`=`, `+=`, `-=`, `*=`, `/=`, `%=` and `**=`  
+
+### Paralell Assigment
+`a, b, c = 1, 2, 3`  
 
 ## Comparassion
 `<` Less than  
