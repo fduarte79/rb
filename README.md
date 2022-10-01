@@ -19,6 +19,10 @@ Boolean: `true` or `false`
 `-` subtratction  
 `*` multiplication   
 
+## Comparassion
+`==` equal 
+`!=` diferent
+
 ## String operators
 `+` concatenate  
 `*` multiply  
@@ -174,3 +178,20 @@ Python is good for DS
 Raskel is good for web
 Ruby is good for script
 </pre>
+
+## Conditional
+<pre>
+puts 'Input a integer between 0 and 9: '.chomp()
+integer = gets.to_i()
+
+if (integer <= 3)
+    puts 'integer <= 3'
+elsif (integer >= 6)
+    puts 'integer >= 6'
+else
+    puts 'integer >= 9'
+end
+</pre>
+
+## Casting
+`.to_i()`: convert to integer  
