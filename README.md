@@ -1,6 +1,6 @@
-# My studies with Ruby
+<title> My studies with Ruby </title>
 
-## Basic  
+# Basic  
 **Install** apt get install ruby-full  
 
 **Interactive shell** `irb`
@@ -42,7 +42,7 @@ irb(main):014:0> gets
 => "\n"
 </pre>
 
-**Variables** `=`  
+## Variables `=`  
 Choose simples names and explicatives  
 Names composed, should sepate with underscore  
 <pre>
@@ -70,7 +70,7 @@ irb(main):040:0> puts "Programming in Ruby is #{feel}"
 Programming in Ruby is cool
 </pre>
 
-## [Arrays](https://ruby-doc.org/core-2.6.2/Array.html)
+# [Arrays](https://ruby-doc.org/core-2.6.2/Array.html)
 <pre>
 irb(main):047:0> arrays = ['Banana', 3.141592, -2]
 => ["Banana", 3.141592, -2]
@@ -89,7 +89,7 @@ Banana
 -2
 </pre>
 
-### Acessing elements of string
+## Acessing elements of string
 <pre>
 irb(main):053:0> arrays[0]
 => "Banana"
@@ -101,13 +101,13 @@ irb(main):056:0> arrays[0][-1]
 => "a"
 </pre>
 
-### Append
+## Append
 <pre>
 arrays << true
 => ["Banana", 3.141592, -2, true]
 </pre>
 
-### Delete
+## Delete
 <pre>
 => ["C", "Python", "Raskel", "Ruby"]
 irb(main):002:0> array
@@ -120,9 +120,9 @@ irb(main):005:0> array.delete_at(1)
 => "Python"
 </pre>
 
-## Loops
+# Loops
 
-### `while(condiction) do`
+## `while(condiction) do`
 <pre>
 irb(main):025:0> array = ['C', 'Python', 'Raskel', 'Ruby']
 => ["C", "Python", "Raskel", "Ruby"]
@@ -139,7 +139,7 @@ Python
 C
 </pre>
 
-### `for variable in variables do`
+## `for variable in variables do`
 <pre>
 irb(main):069:0> languages = ['C', 'Python', 'Raskel', 'Ruby']
 => ["C", "Python", "Raskel", "Ruby"]
@@ -157,7 +157,7 @@ The language Raskel is good for web
 The language Ruby is good for script
 </pre>
 
-### `variables.each() do |variable|`
+## `variables.each() do |variable|`
 <pre>
 irb(main):109:0> languages = ['C', 'Python', 'Raskel', 'Ruby']
 => ["C", "Python", "Raskel", "Ruby"]
