@@ -17,9 +17,9 @@ Boolean: `true` or `false`
 # [Operators](https://www.rubyguides.com/2018/07/ruby-operators/)
 
 ## Assigment
-`=`, `+=`, =`, `*=`, `/=`, `%=` and `**=`  
+`=`, `+=`, `-=`, `*=`, `/=`, `%=` and `**=`  
 
-## Paralell Assigment
+### Paralell Assigment
 `a, b, c = 1, 2, 3`  
 
 ## Math operators
@@ -36,7 +36,7 @@ Boolean: `true` or `false`
 `<=` Less or equal than  
 `==` Equals  
 `!=` Not equals  
-`<=>` 	Greater (1), Equal (0), Or Less (-1)
+`<=>` Greater (1), Equal (0), Or Less (-1)  
 `===`  
 `.eql?`  
 `.equal?`
@@ -48,7 +48,32 @@ irb(main):006:0> 7 <=> 8
 => -1
 irb(main):007:0> 9 <=> 8
 => 1
+('a'...'c') === 'b'
+=> true
 </pre>
+
+## Bitwise  
+`&`  
+`|`  
+`^`  
+`~`  
+`<<`  
+`>>`  
+
+## Logical operators
+`and` 
+`or`  
+`&&`  
+`||`  
+`!`  
+`not`  
+
+## Ternary
+`?`  
+
+## Range
+`..`
+`...`
 
 ## String operators
 `+` concatenate  
