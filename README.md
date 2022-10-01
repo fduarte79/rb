@@ -122,7 +122,7 @@ irb(main):005:0> array.delete_at(1)
 
 ## Loops
 
-#### `while(condiction) do`
+### `while(condiction) do`
 <pre>
 irb(main):025:0> array = ['C', 'Python', 'Raskel', 'Ruby']
 => ["C", "Python", "Raskel", "Ruby"]
