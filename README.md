@@ -1,6 +1,6 @@
-<title> My studies with Ruby </title>
+# My studies with Ruby
 
-# Basic  
+## Basic  
 **Install** apt get install ruby-full  
 
 **Interactive shell** `irb`
@@ -93,7 +93,7 @@ Banana
 -2
 </pre>
 
-## Acessing elements of string
+## Acessing elements and slices
 <pre>
 irb(main):053:0> arrays[0]
 => "Banana"
