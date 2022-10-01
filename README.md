@@ -89,6 +89,18 @@ Banana
 -2
 </pre>
 
+### Acessing elements of string
+<pre>
+irb(main):053:0> arrays[0]
+=> "Banana"
+irb(main):054:0> arrays[0][-1]
+=> "a"
+irb(main):055:0> arrays[0][2]
+=> "n"
+irb(main):056:0> arrays[0][-1]
+=> "a"
+</pre>
+
 ### Append
 <pre>
 arrays << true
