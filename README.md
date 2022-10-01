@@ -122,7 +122,7 @@ irb(main):005:0> array.delete_at(1)
 
 ## Loops
 
-#### `while`
+#### `while(condiction) do`
 <pre>
 irb(main):025:0> array = ['C', 'Python', 'Raskel', 'Ruby']
 => ["C", "Python", "Raskel", "Ruby"]
@@ -139,7 +139,7 @@ Python
 C
 </pre>
 
-#### `for`
+### `for variable in variables do`
 <pre>
 irb(main):069:0> languages = ['C', 'Python', 'Raskel', 'Ruby']
 => ["C", "Python", "Raskel", "Ruby"]
@@ -157,7 +157,7 @@ The language Raskel is good for web
 The language Ruby is good for script
 </pre>
 
-#### `variable.each() do |v|`
+### `variables.each() do |variable|`
 <pre>
 irb(main):109:0> languages = ['C', 'Python', 'Raskel', 'Ruby']
 => ["C", "Python", "Raskel", "Ruby"]
