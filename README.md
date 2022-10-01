@@ -87,6 +87,10 @@ irb(main):118:0> puts arrays
 Banana
 3.141592
 -2
+</pre>
+
+### Append
+<pre>
 arrays << true
 => ["Banana", 3.141592, -2, true]
 </pre>
