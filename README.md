@@ -14,6 +14,8 @@ Float: `3.141592`
 String: `'Ruby'` or `"Ruby"`  
 Boolean: `true` or `false`  
 
+# [Operators](https://www.rubyguides.com/2018/07/ruby-operators/)
+
 ## Math operators
 `+` adictation  
 `-` subtratction  
@@ -195,3 +197,11 @@ end
 
 ## Casting
 `.to_i()`: convert to integer  
+
+## methods (functions)  
+<pre>
+def method()
+   code
+   return value
+end
+</pre>
