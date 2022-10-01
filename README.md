@@ -157,7 +157,7 @@ The language Raskel is good for web
 The language Ruby is good for script
 </pre>
 
-#### each()
+#### `variable.each() do |v|`
 <pre>
 irb(main):109:0> languages = ['C', 'Python', 'Raskel', 'Ruby']
 => ["C", "Python", "Raskel", "Ruby"]
