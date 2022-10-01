@@ -9,10 +9,10 @@
 
 ## Data types
 
-Integer: ..., `-2`, `-1`, `0`, `1`, `2`, ...
-Float: `3.141592`
+Integer: ..., `-2`, `-1`, `0`, `1`, `2`, ...  
+Float: `3.141592`  
 String: `'Ruby'` or `"Ruby"`  
-Boolean: `true` or `false`
+Boolean: `true` or `false`  
 
 ## Math operators
 `+` adictation  
@@ -87,6 +87,8 @@ irb(main):118:0> puts arrays
 Banana
 3.141592
 -2
+arrays << true
+=> ["Banana", 3.141592, -2, true]
 </pre>
 
 ### Delete
