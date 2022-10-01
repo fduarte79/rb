@@ -13,6 +13,7 @@ Integer: ..., `-2`, `-1`, `0`, `1`, `2`, ...
 Float: `3.141592`  
 String: `'Ruby'` or `"Ruby"`  
 Boolean: `true` or `false`  
+[Example](src/data_types.rb)
 
 # [Operators](https://www.rubyguides.com/2018/07/ruby-operators/)
 
