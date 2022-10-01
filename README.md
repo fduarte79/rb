@@ -16,14 +16,39 @@ Boolean: `true` or `false`
 
 # [Operators](https://www.rubyguides.com/2018/07/ruby-operators/)
 
+## Assigment
+`=`, `+=`, =`, `*=`, `/=`, `%=` and `**=`  
+
+## Paralell Assigment
+`a, b, c = 1, 2, 3`  
+
 ## Math operators
-`+` adictation  
-`-` subtratction  
+`+` addition  
+`-` subtraction  
 `*` multiplication   
+`**` exponent  
+`%` modulus  
 
 ## Comparassion
-`==` equal 
-`!=` diferent
+`<` Less than  
+`>` Greater than  
+`>=` Greater or equal than  
+`<=` Less or equal than  
+`==` Equals  
+`!=` Not equals  
+`<=>` 	Greater (1), Equal (0), Or Less (-1)
+`===`  
+`.eql?`  
+`.equal?`
+
+<pre>
+irb(main):005:0> 7 <=> 7
+=> 0
+irb(main):006:0> 7 <=> 8
+=> -1
+irb(main):007:0> 9 <=> 8
+=> 1
+</pre>
 
 ## String operators
 `+` concatenate  
