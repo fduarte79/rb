@@ -7,6 +7,18 @@
 
 `#` comments 
 
+## Input/Output  
+`puts` for output
+`gets` for input
+
+**Interpolation**:  
+use double quotes
+`puts "text #{variable}"
+
+[Example](src/input_output.rb)
+
+
+
 ## Data types
 
 Integer: ..., `-2`, `-1`, `0`, `1`, `2`, ...  
@@ -80,25 +92,6 @@ irb(main):007:0> 9 <=> 8
 `+` concatenate  
 `*` multiply  
 
-## Output  
-`puts`  
-<pre>
-irb(main):013:0> 10 * 2
-=> 20
-
-irb(main):010:0> puts 'Programming with Ruby'
-Programming with Ruby
-=> nil
-</pre>
-
-## Input  
-`gets`  
-<pre>
-irb(main):014:0> gets 
-   
-=> "\n"
-</pre>
-
 ## Variables `=`  
 Choose simples names and explicatives  
 Names composed, should sepate with underscore  
@@ -115,16 +108,6 @@ irb(main):034:0> var = gets
 irb(main):036:0> var = gets.chomp()
 Hello World!!!
 => "Hello World!!!"
-</pre>
-
-## Interpolation  
-Use only double quotes  
-<pre>
-irb(main):039:0> feel = gets.chomp()
-cool
-=> "cool"
-irb(main):040:0> puts "Programming in Ruby is #{feel}"
-Programming in Ruby is cool
 </pre>
 
 # [Arrays](https://ruby-doc.org/core-2.6.2/Array.html)
