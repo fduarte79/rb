@@ -65,6 +65,8 @@ irb(main):007:0> 9 <=> 8
 ('a'...'c') === 'b'
 => true
 </pre>
+[Example](src/operat_compar.rb)
+
 
 ## Bitwise  
 `&`  
