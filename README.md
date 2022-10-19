@@ -242,3 +242,7 @@ def method()
    return value
 end
 </pre>
+
+
+# Links
+[Ruby em Vinte Minutos](https://www.ruby-lang.org/pt/documentation/quickstart/)  
