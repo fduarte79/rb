@@ -56,13 +56,13 @@ Boolean: `true` or `false`
 `.equal?`
 
 <pre>
-irb(main):005:0> 7 <=> 7
+irb(main):005:0> 7 <=> 7    # 7 = 7
 => 0
-irb(main):006:0> 7 <=> 8
+irb(main):006:0> 7 <=> 8    # 7 < 8
 => -1
-irb(main):007:0> 9 <=> 8
+irb(main):007:0> 9 <=> 8    # 9 > 8
 => 1
-('a'...'c') === 'b'
+('a'...'c') === 'b'         # is contained in [a,c[
 => true
 </pre>
 [Example](src/operat_compar.rb)
