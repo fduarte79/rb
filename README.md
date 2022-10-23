@@ -244,5 +244,9 @@ end
 </pre>
 
 
+#### Class
+**Atributs**  dados, similar às va
+
+
 # Links
 [Ruby em Vinte Minutos](https://www.ruby-lang.org/pt/documentation/quickstart/)  
