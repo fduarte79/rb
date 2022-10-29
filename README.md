@@ -3,13 +3,18 @@
 ## Basic  
 **Install** apt get install ruby-full  
 
-**Interactive shell** `irb`
+**Interactive Ruby Shell** `irb`  
+
+**Script Rubt**: `ruby file.rb`  
 
 `#` comments 
 
 ## Input/Output (with operator + and interpolation)   
-`puts` for output  
+`puts` or "puts" for output  
 `gets` for input  
+
+For scape character, use ""  
+`puts "\t Ruby"
 
 **Interpolation**:  
 use double quotes  
