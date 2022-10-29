@@ -1,40 +1,54 @@
 # My studies with Ruby
 
+
+
 ## Basic  
 **Install** apt get install ruby-full  
-
 **Interactive Ruby Shell** `irb`  
-
 **Script Rubt**: `ruby file.rb`  
-
 `#` comments 
+
+
 
 ## Input/Output (with operator + and interpolation)   
 `puts` or "puts" for output  
 `gets` for input  
 
 For scape character, use ""  
-`puts "\t Ruby"
+`puts "\t Ruby"`
 
 **Interpolation**:  
 use double quotes  
 `puts "text #{variable}"`  
-
 [Example](src/input_output.rb)
 
 
 
 ## Data types
-
 Integer: ..., `-2`, `-1`, `0`, `1`, `2`, ...  
 Float: `3.141592`  
 String: `'Ruby'` or `"Ruby"`  
 Boolean: `true` or `false`  
 [Example](src/data_types.rb)
 
-# [Operators](https://www.rubyguides.com/2018/07/ruby-operators/)
 
-## Math operators
+
+## Variables `=`  
+Choose simples names and explicatives  
+Names composed, should sepate with underscore  
+<pre>
+soma = 5 + 9
+</pre>
+
+### Contants
+Their names contain uppercase letters  
+`CONSTANT = 3`  
+
+
+
+## [Operators](https://www.rubyguides.com/2018/07/ruby-operators/)
+
+### Math operators
 `+` addition  
 `-` subtraction  
 `*` multiplication   
@@ -42,13 +56,13 @@ Boolean: `true` or `false`
 `%` modulus  
 [Example](src/operat_math.rb)
 
-## Assigment
+### Assigment
 `=`, `+=`, `-=`, `*=`, `/=`, `%=` and `**=`  
 
-### Paralell Assigment
+#### Paralell Assigment
 `a, b, c = 1, 2, 3`  
 
-## Comparassion
+### Comparassion
 `<` Less than  
 `>` Greater than  
 `>=` Greater or equal than  
@@ -59,21 +73,19 @@ Boolean: `true` or `false`
 `===`  
 `.eql?`  
 `.equal?`
-
-<pre>
-irb(main):005:0> 7 <=> 7    # 7 = 7
+ <pre>
+> 7 <=> 7    # 7 = 7
 => 0
-irb(main):006:0> 7 <=> 8    # 7 < 8
+> 7 <=> 8    # 7 < 8
 => -1
-irb(main):007:0> 9 <=> 8    # 9 > 8
+> 9 <=> 8    # 9 > 8
 => 1
 ('a'...'c') === 'b'         # is contained in [a,c[
 => true
 </pre>
 [Example](src/operat_compar.rb)
 
-
-## Bitwise  
+### Bitwise  
 `&`  
 `|`  
 `^`  
@@ -81,7 +93,7 @@ irb(main):007:0> 9 <=> 8    # 9 > 8
 `<<`  
 `>>`  
 
-## Logical operators
+### Logical operators
 `and` 
 `or`  
 `&&`  
@@ -89,31 +101,26 @@ irb(main):007:0> 9 <=> 8    # 9 > 8
 `!`  
 `not`  
 
-## Ternary
+### Ternary
 `?`  
 
-## Range
+### Range
 `..`
 `...`
 
-## String operators
+### String operators
 `+` concatenate  
 `*` multiply  
 
-## Variables `=`  
-Choose simples names and explicatives  
-Names composed, should sepate with underscore  
-<pre>
-soma = 5 + 9
-</pre>
+
 
 ## Methods  
 `.chomp()` remove scape characters. It's a good pratice of programation use .chomp() in gets
 <pre>
-irb(main):034:0> var = gets
+> var = gets
 'Hello World!!!'
 => "'Hello World!!!'\n"
-irb(main):036:0> var = gets.chomp()
+> var = gets.chomp()
 Hello World!!!
 => "Hello World!!!"
 </pre>
@@ -126,20 +133,22 @@ Hello World!!!
 `.to_f()`: convert to float  
 `.to_s()`: convert to string  
 
-# [Arrays](https://ruby-doc.org/core-2.6.2/Array.html)
+
+
+## [Arrays](https://ruby-doc.org/core-2.6.2/Array.html)
 <pre>
-irb(main):047:0> arrays = ['Banana', 3.141592, -2]
+> arrays = ['Banana', 3.141592, -2]
 => ["Banana", 3.141592, -2]
-irb(main):048:0> arrays
+> arrays
 => ["Banana", 3.141592, -2]
-irb(main):049:0> arrays[0]
+> arrays[0]
 => "Banana"
-irb(main):050:0> arrays[-1]
+> arrays[-1]
 => -2
 
-irb(main):117:0> arrays = ['Banana', 3.141592, -2]
+> arrays = ['Banana', 3.141592, -2]
 => ["Banana", 3.141592, -2]
-irb(main):118:0> puts arrays
+> puts arrays
 Banana
 3.141592
 -2
@@ -147,13 +156,13 @@ Banana
 
 ## Acessing elements and slices
 <pre>
-irb(main):053:0> arrays[0]
+> arrays[0]
 => "Banana"
-irb(main):054:0> arrays[0][-1]
+> arrays[0][-1]
 => "a"
-irb(main):055:0> arrays[0][2]
+> arrays[0][2]
 => "n"
-irb(main):056:0> arrays[0][-1]
+> arrays[0][-1]
 => "a"
 </pre>
 
@@ -166,28 +175,30 @@ arrays << true
 ## Delete
 <pre>
 => ["C", "Python", "Raskel", "Ruby"]
-irb(main):002:0> array
+> array
 => ["C", "Python", "Raskel", "Ruby"]
-irb(main):003:0> array.delete_at(2)
+> array.delete_at(2)
 => "Raskel"
 irb(main):004:0> array
 => ["C", "Python", "Ruby"]
-irb(main):005:0> array.delete_at(1)
+> array.delete_at(1)
 => "Python"
 </pre>
 
-# Loops
 
-## `while(condiction) do`
+
+## Loops
+
+### `while(condiction) do`
 <pre>
-irb(main):025:0> array = ['C', 'Python', 'Raskel', 'Ruby']
+> array = ['C', 'Python', 'Raskel', 'Ruby']
 => ["C", "Python", "Raskel", "Ruby"]
-irb(main):026:0> x = 4
+> x = 4
 => 4
-irb(main):027:0> while (x >= 0) do
-irb(main):028:1*     puts array[x]
-irb(main):029:1>     x = x - 1
-irb(main):030:1> end
+> while (x >= 0) do
+*     puts array[x]
+>     x = x - 1
+> end
 
 Ruby
 Raskel
@@ -195,43 +206,43 @@ Python
 C
 </pre>
 
-## `for variable in variables do`
+### `for variable in variables do`
 <pre>
-irb(main):069:0> languages = ['C', 'Python', 'Raskel', 'Ruby']
+> languages = ['C', 'Python', 'Raskel', 'Ruby']
 => ["C", "Python", "Raskel", "Ruby"]
-irb(main):070:0> objective = ['System', 'DS', 'web', 'script']
+> objective = ['System', 'DS', 'web', 'script']
 => ["System", "DS", "web", "script"]
-irb(main):071:0> x = 0
+> x = 0
 => 0
-irb(main):072:0> for l in languages do
-irb(main):073:1*     puts "The language #{l} is good for #{objective[x]}"
-irb(main):074:1>     x = x + 1
-irb(main):075:1> end
+> for l in languages do
+*     puts "The language #{l} is good for #{objective[x]}"
+>     x = x + 1
+> end
 The language C is good for System
 The language Python is good for DS
 The language Raskel is good for web
 The language Ruby is good for script
 </pre>
 
-## `variables.each() do |variable|`
+### `variables.each() do |variable|`
 <pre>
-irb(main):109:0> languages = ['C', 'Python', 'Raskel', 'Ruby']
+> languages = ['C', 'Python', 'Raskel', 'Ruby']
 => ["C", "Python", "Raskel", "Ruby"]
-irb(main):110:0> objective = ['System', 'DS', 'web', 'script']
+> objective = ['System', 'DS', 'web', 'script']
 => ["System", "DS", "web", "script"]
-irb(main):111:0> x = 0
+> x = 0
 => 0
-irb(main):112:0> languages.each do |l|
-irb(main):113:1*    puts "#{l} is good for #{objective[x]}"
-irb(main):114:1>    x = x + 1
-irb(main):115:1> end
+> languages.each do |l|
+*    puts "#{l} is good for #{objective[x]}"
+>    x = x + 1
+> end
 C is good for System
 Python is good for DS
 Raskel is good for web
 Ruby is good for script
 </pre>
 
-## loop do
+### loop do
 <pre>
 x = 0
 loop do
@@ -244,7 +255,9 @@ loop do
 end
 </pre>
 
-## Conditional
+
+
+# Conditional
 <pre>
 puts 'Input a integer between 0 and 9: '.chomp()
 integer = gets.to_i()
@@ -266,6 +279,41 @@ def method()
 end
 </pre>
 
+
+
+## Hash
+<pre>
+> cesta_de_frutas = {'fruta1':'uva', 'fruta2':'banana'}
+=> {:fruta1=>"uva", :fruta2=>"banana"}
+> cesta_de_frutas[:fruta1]
+=> "uva"
+> cesta_de_frutas[:fruta2]
+=> "banana"
+> cesta_de_frutas[:fruta3] = 'morango'
+=> "morango"
+> cesta_de_frutas
+=> {:fruta1=>"uva", :fruta2=>"banana", :fruta3=>"morango"}
+</pre>
+
+
+
+## Methods
+<pre>
+def soma(x, y)
+   puts x + y
+end
+
+def subtrai(x, y)
+   puts x - y
+end
+
+soma(5,4)
+subtrai(5,4)
+
+$ ruby calculator.rb 
+9
+1
+</pre>
 
 #### Class
 **Atributs**  dados, similar às va
