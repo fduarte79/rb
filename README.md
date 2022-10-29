@@ -117,6 +117,14 @@ irb(main):036:0> var = gets.chomp()
 Hello World!!!
 => "Hello World!!!"
 </pre>
+`.empty?`: check is empty   
+`.class`: return the class  
+`.methods`: return the metods  
+
+### Casting
+`.to_i()`: convert to integer  
+`.to_f()`: convert to float  
+`.to_s()`: convert to string  
 
 # [Arrays](https://ruby-doc.org/core-2.6.2/Array.html)
 <pre>
@@ -223,6 +231,19 @@ Raskel is good for web
 Ruby is good for script
 </pre>
 
+## loop do
+<pre>
+x = 0
+loop do
+    print x
+    print "\n"
+    if x >= 5
+        break
+    end
+    x = x + 1
+end
+</pre>
+
 ## Conditional
 <pre>
 puts 'Input a integer between 0 and 9: '.chomp()
@@ -236,9 +257,6 @@ else
     puts 'integer >= 9'
 end
 </pre>
-
-## Casting
-`.to_i()`: convert to integer  
 
 ## methods (functions)  
 <pre>
