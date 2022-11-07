@@ -320,4 +320,6 @@ $ ruby calculator.rb
 
 
 # Links
-[Ruby em Vinte Minutos](https://www.ruby-lang.org/pt/documentation/quickstart/)  
++ [Ruby em Vinte Minutos](https://www.ruby-lang.org/pt/documentation/quickstart/)  
++ [The Odin Project](https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby)  
+
