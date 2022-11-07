@@ -323,11 +323,11 @@ $ ruby calculator.rb
 # Links
 
 ## Tools
-+ [runrl](https://runrb.io/)
++ [runr|](https://runrb.io/)
 + [Ruby online editor, IDE, compiler, interpreter, and REPL](https://replit.com/languages/ruby)
 
 
-## 
+## Documentation and Courses
 + [Ruby - Documentation](https://www.ruby-lang.org/en/documentation/)  
 + [Ruby - Documentação](https://www.ruby-lang.org/pt/documentation/)  
 + [Ruby em Vinte Minutos](https://www.ruby-lang.org/pt/documentation/quickstart/)  
