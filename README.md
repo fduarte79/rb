@@ -321,7 +321,7 @@ $ ruby calculator.rb
 
 # Links
 + [Ruby - Programming Language | Tutorial - Mike Dane](https://www.youtube.com/playlist?list=PLLAZ4kZ9dFpO90iMas70Tt4_wYjhLGkya)  
-+ [ Full Stack Ruby on Rails Development Bootcamp APPSIMPACT Academy](https://www.youtube.com/playlist?list=PL6SEI86zExmsdxwsyEQcFpF9DWmvttPPu)  
++ [Full Stack Ruby on Rails Development Bootcamp APPSIMPACT Academy](https://www.youtube.com/playlist?list=PL6SEI86zExmsdxwsyEQcFpF9DWmvttPPu)  
 + [Ruby em Vinte Minutos](https://www.ruby-lang.org/pt/documentation/quickstart/)  
 + [The Odin Project](https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby)  
 + [Curso Completo Ruby - One Bit Code]([https://www.youtube.com/watch?v=2js9Q_BMD-8](https://www.youtube.com/playlist?list=PLdDT8if5attEOcQGPHLNIfnSFiJHhGDOZ))
