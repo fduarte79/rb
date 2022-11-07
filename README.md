@@ -319,7 +319,15 @@ $ ruby calculator.rb
 **Atributs**  dados, similar às va
 
 
+
 # Links
+
+## Tools
++ [runrl](https://runrb.io/)
++ [Ruby online editor, IDE, compiler, interpreter, and REPL](https://replit.com/languages/ruby)
+
+
+## 
 + [Ruby - Documentation](https://www.ruby-lang.org/en/documentation/)  
 + [Ruby - Documentação](https://www.ruby-lang.org/pt/documentation/)  
 + [Ruby em Vinte Minutos](https://www.ruby-lang.org/pt/documentation/quickstart/)  
