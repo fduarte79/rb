@@ -146,12 +146,61 @@ Hello World!!!
 > arrays[-1]
 => -2
 
+
 > arrays = ['Banana', 3.141592, -2]
 => ["Banana", 3.141592, -2]
 > puts arrays
 Banana
 3.141592
 -2
+</pre>
+
+## .map
+<pre>
+array = ['i0', 'i1', 'i2', 'i3', 'i4', 5, 6, 7, 8, 9]
+array.map {|v|  puts "#{v}".to_i * 2}
+0
+0
+0
+0
+0
+10
+12
+14
+16
+18
+</pre>
+
+
+## .each_with_index*
+<pre>
+array = ['i0', 'i1', 'i2', 'i3', 'i4', 5, 6, 7, 8, 9]
+array.each_with_index {|v, i|  puts "0#{i+1} - #{v*2}" if i % 2 != 0}
+02 - i1i1
+04 - i3i3
+06 - 10
+08 - 14
+010 - 18
+</pre>
+
+## .select
+<pre>
+array = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+array.select { | v | puts v * 3 if v.odd?}
+puts 
+array.select { | v | puts v * 2 if v.even?}
+
+3
+9
+15
+21
+27
+
+0
+4
+8
+12
+16
 </pre>
 
 ## Acessing elements and slices
