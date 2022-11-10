@@ -319,7 +319,7 @@ $ ruby calculator.rb
 </pre>
 
 
-### .map
+### .map (.collect)
 <pre>
 array = ['i0', 'i1', 'i2', 'i3', 'i4', 5, 6, 7, 8, 9]
 array.map {|v|  puts "#{v}".to_i * 2}
