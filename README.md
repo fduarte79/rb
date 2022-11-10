@@ -350,21 +350,13 @@ array.each_with_index {|v, i|  puts "0#{i+1} - #{v*2}" if i % 2 != 0}
 ### .select
 <pre>
 array = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
-array.select { | v | puts v * 3 if v.odd?}
+array_i = array.select { | v | v * 3 if v.odd?}
 puts 
-array.select { | v | puts v * 2 if v.even?}
+array_p = array.select { | v | v * 2 if v.even?}
 
-3
-9
-15
-21
-27
-
-0
-4
-8
-12
-16
+puts array_p
+puts
+puts array_i
 </pre>
 
 
