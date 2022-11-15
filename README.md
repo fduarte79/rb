@@ -257,9 +257,6 @@ end
 </pre>
 
 
-
-
-
 # Conditional
 <pre>
 puts 'Input a integer between 0 and 9: '.chomp()
@@ -282,8 +279,6 @@ def method()
 end
 </pre>
 
-
-
 ## Hash
 <pre>
 > cesta_de_frutas = {'fruta1':'uva', 'fruta2':'banana'}
@@ -299,47 +294,43 @@ end
 </pre>
 
 
-# Class
-**Sintax:** ```> require_relative 'file'```
+# Class, methods, objects
+**Sintax:** require_relative '[calculator.rb](src/calculator.rb)'
+
 <pre>
 > require_relative 'calculator'
 => true
-
-> obj_pls = Calc.new(3,9)
-=> #<Calc:0x00005579b1393b60 @x=3, @y=9>
-
-obj_pls
-=> #<Calc:0x00005579b1393b60 @x=3, @y=9>
-
-> obj_pls.met_add(4,9)
-=> 12
-
-> obj_min.met_sub(7,9)
-=> -4
-
-> obj_mlp.met_mult(7,9)
-=> 45
-
+</pre>
 
 <pre>
+class Calc
 
+  attr_reader :z
+  attr_accessor :x, :y
 
-## Methods
-<pre>
-def soma(x, y)
-   puts x + y
+  def initialize(x, y)
+    @x = x
+    @y = y
+    z = 1
+  end
+
+  def met_add(x,y)
+     @x + @y
+  end
+
+  def met_sub(x,y)
+     self.x - self.y
+  end
+
+  def met_mult(x,y)
+    self.y * @x
+  end
+
+  def met_div(x,y)
+    @x / self.y
+  end
+
 end
-
-def subtrai(x, y)
-   puts x - y
-end
-
-soma(5,4)
-subtrai(5,4)
-
-$ ruby calculator.rb 
-9
-1
 </pre>
 
 
