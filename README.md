@@ -299,6 +299,26 @@ end
 </pre>
 
 
+# Class
+**Sintax:** ```> require_relative 'file'```
+<pre>
+> require_relative 'calculator'
+=> true
+
+soma = Calc.new(3,7)
+=> #<Calc:0x0000564bff2801f8 @x=3, @y=7>
+
+> soma.x
+=> 3
+
+> soma.y
+=> 7
+
+> soma.x = 9
+=> 9
+
+<pre>
+
 
 ## Methods
 <pre>
