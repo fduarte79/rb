@@ -305,17 +305,21 @@ end
 > require_relative 'calculator'
 => true
 
-soma = Calc.new(3,7)
-=> #<Calc:0x0000564bff2801f8 @x=3, @y=7>
+> obj_pls = Calc.new(3,9)
+=> #<Calc:0x00005579b1393b60 @x=3, @y=9>
 
-> soma.x
-=> 3
+obj_pls
+=> #<Calc:0x00005579b1393b60 @x=3, @y=9>
 
-> soma.y
-=> 7
+> obj_pls.met_add(4,9)
+=> 12
 
-> soma.x = 9
-=> 9
+> obj_min.met_sub(7,9)
+=> -4
+
+> obj_mlp.met_mult(7,9)
+=> 45
+
 
 <pre>
 
